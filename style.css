@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 body {
 	background-color: hsl(222, 26%, 31%);
 	margin: 5vw;
+	margin-top: 18vw;
 	font-family: League Spartan;
 }
 
