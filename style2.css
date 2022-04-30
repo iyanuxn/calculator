@@ -1,0 +1,301 @@
+body {
+	background-color: hsl(0, 0%, 90%)
+	margin: 5vw;
+	font-family: League Spartan;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.calc {
+	color: hsl(60, 10%, 19%);
+	font-size: 2.5em;
+	font-weight: 700;
+	padding-top: 1vw;
+}
+
+.switch-theme {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+
+.theme-text {
+	color: hsl(60, 10%, 19%);
+	padding-right: 3.5vw;
+	font-size: 0.65em;
+	font-weight: 600;
+	letter-spacing: 0.3em;
+	line-height: 7.5vw;	
+}
+
+.toggle {
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+}
+
+.toggle-numbers {
+	display: flex;
+	justify-content: right;
+}
+.num {
+	padding: 2vw;	
+	color: hsl(60, 10%, 19%);
+	font-size: 0.8em;
+	padding-bottom: 1vw;
+	font-weight: 400;	
+}
+
+.toggle-button {
+	background-color: hsl(0, 5%, 81%);
+	width: 17vw;
+	float: right;
+	border-radius: 6vw;
+	display: flex;
+	justify-content: center;
+}
+
+.toggle-circle {
+	background-color: hsl(25, 98%, 40%);
+	height: 4vw;
+	width: 4vw;
+	border-radius: 50%;
+	margin: 1.5vw;
+}
+
+.display {
+	background-color: hsl(0, 0%, 93%);
+	border-radius: 3vw;
+	margin-top: 7vw;
+	height: 20vw;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.display::-webkit-scrollbar{
+	display: none;
+}
+
+.display-text {
+	font-size: 2.5em;
+	font-weight: 700;
+	color: hsl(60, 10%, 19%);
+	text-align: right;
+	white-space: nowrap;
+	padding: 6vw;
+}
+
+.keypad-bg {
+	margin-top: 5vw;
+	background-color: hsl(0, 5%, 81%);
+	display: flex;
+	flex-direction: column;
+	border-radius: 3vw;
+	padding: 4vw;
+}
+
+.key-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.keys {
+	background-color: hsl(45, 7%, 89%);
+	margin: 2vw;
+	width: 18vw;
+	max-height: 18vw;
+	text-align: center;
+	border-radius: 2vw;
+	box-shadow: 0 0.6vw 0 0 hsl(35, 11%, 61%) ;
+	color: hsl(60, 10%, 19%);
+	font-weight: 700;
+	font-size: 1.3em;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+	border: none;
+	font-family: League Spartan;
+}
+
+.operator {
+	background-color: hsl(45, 7%, 89%);
+	margin: 2vw;
+	width: 18vw;
+	max-height: 18vw;
+	text-align: center;
+	border-radius: 2vw;
+	box-shadow: 0 0.6vw 0 0 hsl(35, 11%, 61%) ;
+	color: hsl(60, 10%, 19%);
+	font-weight: 700;
+	font-size: 1.3em;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+	border: none;
+	font-family: League Spartan;
+}
+
+.point {
+	background-color: hsl(45, 7%, 89%);
+	margin: 2vw;
+	width: 18vw;
+	max-height: 18vw;
+	text-align: center;
+	border-radius: 2vw;
+	box-shadow: 0 0.6vw 0 0 hsl(35, 11%, 61%) ;
+	color: hsl(60, 10%, 19%);
+	font-weight: 700;
+	font-size: 1.3em;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+	border: none;
+	font-family: League Spartan;
+}
+
+.del {
+	background-color: hsl(185, 42%, 37%);
+	margin: 2vw;
+	width: 18vw;
+	max-height: 18vw;
+	text-align: center;
+	border-radius: 2vw;
+	box-shadow: 0 0.6vw 0 0 hsl(185, 58%, 25%) ;
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+	font-size: 1.3em;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+	border: none;
+	font-family: League Spartan;
+}
+
+.equal {
+	background-color: hsl(25, 98%, 40%);
+	margin: 2vw;
+	width: 38vw;
+	max-height: 18vw;
+	text-align: center;
+	border-radius: 2vw;
+	box-shadow: 0 0.6vw 0 0 hsl(25, 99%, 27%);
+	color: hsl(0, 0%, 100%);
+	font-weight: 500;
+	font-size: 1em;
+	padding-top: 6vw;
+	padding-bottom: 4vw;
+	border: none;
+	font-family: League Spartan;
+}
+
+.reset {
+	background-color: hsl(185, 42%, 37%);
+	margin: 2vw;
+	width: 38vw;
+	max-height: 18vw;
+	text-align: center;
+	border-radius: 2vw;
+	box-shadow: 0 0.6vw 0 0 hsl(185, 58%, 25%);
+	color: hsl(0, 0%, 100%);
+	font-weight: 500;
+	font-size: 1em;
+	padding-top: 6vw;
+	padding-bottom: 4vw;
+	border: none;
+	font-family: League Spartan;
+}
+
+/* desktop display */
+@media (min-width: 769px){
+	body{
+		margin-top: 5vw;
+		margin-left: 13vw;
+		margin-right: 13vw;
+	}
+
+	.theme-text{
+		font-size: 1em;
+		line-height: 3.3vw;
+	}
+
+	.num{
+		font-size: 1em;
+		padding:1vw;
+	}
+
+	.toggle-button{
+		width: 8vw;
+	}
+
+	.toggle-circle{
+		height: 2vw;
+		width: 2vw;
+		margin: 0.5vw;
+	}
+
+	.display{
+		height: 15vw;
+		margin-top: 3vw;
+	}
+
+	.display-text{
+		font-size: 7em;
+		padding: 5vw;
+	}
+
+	.keypad-bg{
+		margin-top: 2vw;
+		padding: 2vw;
+	}
+
+	.keys {
+		margin: 1.3vw;
+		font-size: 3.5em;
+		max-height: 10vw;
+		padding-bottom: 2vw;
+		padding-top: 2vw;
+	}
+
+	.operator {
+		margin: 1.3vw;
+		font-size: 3.5em;
+		max-height: 10vw;
+		padding-bottom: 2vw;
+		padding-top: 2vw;
+	}
+
+	.point {
+		margin: 1.3vw;
+		font-size: 3.5em;
+		max-height: 10vw;
+		padding-bottom: 2vw;
+		padding-top: 2vw;
+	}
+
+	.del {
+		margin: 1.3vw;
+		font-size: 3em;
+		max-height: 10vw;
+		padding-bottom: 2vw;
+		padding-top: 2vw;
+	}
+
+	.equal {
+		margin: 1.3vw;
+		font-size: 2.5em;
+		max-height: 10vw;
+		padding-bottom: 2vw;
+		padding-top: 2vw;
+	}
+
+	.reset {
+		margin: 1.3vw;
+		font-size: 2.5em;
+		max-height: 10vw;
+		padding-bottom: 2vw;
+		padding-top: 2vw;
+	}
+}

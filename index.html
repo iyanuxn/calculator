@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" id="theme" href="style.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<span class="calc">calc</span>
+		<div class="switch-theme">
+			<div class="toggle">
+				<div class="toggle-numbers">
+					<span class="num">1</span>
+					<span class="num">2</span>
+					<span class="num">3</span>
+				</div>
+				<div class="theme">
+					<span class="theme-text">THEME</span>
+					<div class="toggle-button">
+						<div class="toggle-circle"></div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<!--display-->
+	<div class="display">
+		<div class="display-text"></div>
+	</div>
+
+	<!--keypad-->
+	<div class="keypad-bg">
+		<div class="key-row">
+			<input type="button" class="keys" value="7">
+			<input type="button" class="keys" value="8">
+			<input type="button" class="keys" value="9">
+			<input type="button" class="del" value="DEL">
+		</div>
+		<div class="key-row">
+			<input type="button" class="keys" value="4">
+			<input type="button" class="keys" value="5">
+			<input type="button" class="keys" value="6">
+			<input type="button" class="operator" value="+">
+		</div>
+		<div class="key-row">
+			<input type="button" class="keys" value="1">
+			<input type="button" class="keys" value="2">
+			<input type="button" class="keys" value="3">
+			<input type="button" class="operator" value="-">
+		</div>
+		<div class="key-row">
+			<input type="button" class="point" value=".">
+			<input type="button" class="keys" value="0">
+			<input type="button" class="operator" value="/">
+			<input type="button" class="operator" value="x">
+		</div>
+		<div class="key-row">
+			<input type="button" class="reset" value="RESET">
+			<input type="button" class="equal" value="=">
+		</div>
+	</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
